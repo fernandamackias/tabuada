@@ -1,0 +1,107 @@
+
+
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {}
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c7f464;
+    color: aqua;
+    padding: 20px;
+}
+main{
+    padding: 200px;
+    background-color: #c7f464;
+}
+body{
+
+    color: #c7f464;
+}
+
+h1{
+    font-size: 36px;
+}
+p{
+    line-height: 1.5,;
+    text-align: justify;
+}
+
+.dark-mode{
+    background-color: rgb(123, 235, 11);
+    color: rgb(252, 252, 237);
+
+}
+
+
+.dark-mode-header{
+    background-color: #1a31fa;
+    color:#1a31fa;
+    
+}
+
+.dark-mode h1{
+    background-color: #1a31fa;
+}
+.dark-mode p{
+    color: rgb(1, 0, 2);
+}
+.dark-mode-body{
+    background-color: #1a31fa;
+ 
+}
+
+
+
+
+
+
+
+body{
+    background-color:#c7f464;
+    background-position: center;
+    backface-visibility: visible;
+}
+h1{
+    font-size: 100px;
+   font-family:"usar";
+    
+
+
+}
+p{
+    font-size: 20px;
+    font-family: "usar";
+    color:#aa00ff;
+   
+   
+
+}
+@font-face{
+    font-family:'usar';
+    src:url(HollowgraphyPersonalUseOnly-9hjqe.ttf ) format("opentype"), url(HollowgraphyPersonalUseOnly-9hjqe.ttf)
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+button{
+    color: blue;
+    border-style: solid;
+    border-color: black;
+}
+
+
+table{
+    font-size: 35px;
+    font-family: "usar";
+}
